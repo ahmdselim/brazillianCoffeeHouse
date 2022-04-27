@@ -3,7 +3,6 @@ import {
   LOGOUT_USER,
   CREATE_USER,
   GET_USERS,
-  CREATE_USER_COLLECTION,
   ADD_TO_CART,
   ADD_TO_WISH_LIST,
   ADD_PRODUCT,
@@ -26,7 +25,6 @@ import {
   deleteDoc,
   updateDoc,
 } from "firebase/firestore";
-import { async } from "@firebase/util";
 
 // create new user
 export const createUser = async (

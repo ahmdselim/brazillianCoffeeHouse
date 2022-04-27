@@ -3,7 +3,6 @@ import {
   LOGOUT_USER,
   CREATE_USER,
   GET_USERS,
-  CREATE_USER_COLLECTION,
   ADD_PRODUCT,
   GET_PRODUCTS,
   ADD_TO_CART,
@@ -21,8 +20,6 @@ export function ProductsReducer(state = initState, action) {
       return { ...state, user: action.payload };
 
     case CREATE_USER:
-      return { ...state };
-    case CREATE_USER_COLLECTION:
       return { ...state };
 
     case GET_USERS:

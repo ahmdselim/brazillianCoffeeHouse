@@ -13,13 +13,16 @@ const EditAccount = () => {
           <h1>Edit Account Information</h1>
           <h2>Account Information</h2>
           <hr />
-          <form>
-            <label>Email *</label>
-            <input type="text" />
-            <label>Password*</label>
-            <input type="text" />
-            <button>save</button>
-          </form>
+          {users &&
+            users.map((user) => (
+              <form>
+                <label>Email *</label>
+                <input type="text" defaultValue={user.data.email} />
+                <label>Password*</label>
+                <input type="password" defaultValue={user.data.password} />
+                <button>save</button>
+              </form>
+            ))}
         </div>
       </div>
     </>

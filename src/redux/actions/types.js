@@ -1,7 +1,6 @@
 export const GET_USERS = "GET_USERS";
 export const LOGIN_USER = "LOGIN_USER";
 export const CREATE_USER = "CREATE_USER";
-export const CREATE_USER_COLLECTION = "CREATE_USER_COLLECTION";
 export const LOGOUT_USER = "LOGOUT_USER";
 export const GET_PRODUCTS = "GET_PRODUCTS";
 export const GET_CART = "GET_CART";

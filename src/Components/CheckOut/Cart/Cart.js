@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { FcRight } from "react-icons/fc";
 import { FcEmptyTrash } from "react-icons/fc";
 import { useSelector, useDispatch } from "react-redux";

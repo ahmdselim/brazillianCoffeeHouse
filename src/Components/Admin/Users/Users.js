@@ -27,7 +27,7 @@ const Users = () => {
     if (!user) navigate("/");
     if (users && users.map((user) => user.data.rank).join() !== "1")
       navigate("/");
-  }, [user, loading, navigate]);
+  }, [user, users, loading, navigate]);
 
   return (
     <>
@@ -56,7 +56,7 @@ const Users = () => {
                         <span>{user.data.email}</span>
                       </td>
                       <td className="item">
-                        {user.data.rank === '1' ? "Admin" : "Member"}
+                        {user.data.rank === "1" ? "Admin" : "Member"}
                       </td>
                       {users &&
                       users.map((user) => user.data.rank).join() === "1" ? (

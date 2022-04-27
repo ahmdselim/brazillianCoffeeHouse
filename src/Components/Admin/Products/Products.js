@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { auth } from "../../../Firebase/config";
 import CoffeeIcon from "../../Home/Images/coffeeIcon.svg";
@@ -22,7 +22,7 @@ const Products = () => {
     if (!user) navigate("/");
     if (users && users.map((user) => user.data.rank).join() !== "1")
       navigate("/");
-  }, [user, loading, navigate]);
+  }, [user, users, loading, navigate]);
   return (
     <>
       {" "}
