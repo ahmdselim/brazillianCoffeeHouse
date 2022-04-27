@@ -1,0 +1,45 @@
+.container .account .accountInf {
+  width: 78%;
+  margin-left: 2%;
+}
+.container .account .accountInf h1 {
+  margin-bottom: 35px;
+  font-weight: bolder;
+}
+.container .account .accountInf h2 {
+  margin-bottom: 10px;
+}
+.container .account .accountInf hr {
+  width: 50%;
+  margin-bottom: 10px;
+}
+.container .account .accountInf form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.container .account .accountInf form label {
+  margin-bottom: 1%;
+}
+.container .account .accountInf form input {
+  width: 50%;
+  padding: 3px 10px;
+  margin-bottom: 2%;
+}
+.container .account .accountInf form button {
+  width: 15%;
+  margin-top: 1%;
+  padding: 10px;
+  background: #a0c800;
+  border: 1px solid #a0c800;
+  text-transform: uppercase;
+  color: #352b2b;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 13px;
+}
+.container .account .accountInf form button:hover {
+  background: #352b2b;
+  border: 1px solid #352b2b;
+  color: #fff;
+}

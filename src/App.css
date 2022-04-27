@@ -1,0 +1,110 @@
+#home .heading h2 {
+  color: #ffffff;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  text-transform: none;
+  font-family: sans-serif;
+  line-height: 54px;
+  text-align: left;
+}
+#home .heading strong {
+  color: #fff;
+  font-size: 30px;
+  font-weight: normal;
+}
+.heading h2 {
+  padding: 3px 10px 0 0;
+  padding-bottom: 15px;
+  margin-top: 230px;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .banner-container {
+    background-image: url("./Images/1.jpg");
+    background-repeat: no-repeat;
+    min-height: 775px;
+    background-size: contain;
+    padding: 50px;
+  }
+  .logo {
+    text-align: center;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .banner-container {
+    background-image: url("./Images/1.jpg");
+    background-repeat: no-repeat;
+    min-height: 775px;
+    background-size: cover;
+    padding: 50px;
+  }
+  .logo {
+    text-align: center;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .banner-container {
+    background-image: url("./Images/1.jpg");
+    background-repeat: no-repeat;
+    min-height: 775px;
+    background-size: cover;
+    padding: 50px;
+  }
+  .logo {
+    width: auto;
+    margin: 0 auto;
+    padding: 16px;
+    height: 125px;
+    font-size: 2.2em;
+    text-shadow: none;
+    text-align: left;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .banner-container {
+    background-image: url("./Images/1.jpg");
+    background-repeat: no-repeat;
+    min-height: 775px;
+    background-size: cover;
+    padding: 50px;
+  }
+  .logo {
+    width: auto;
+    margin: 0 auto;
+    padding: 16px;
+    height: 125px;
+    font-size: 2.2em;
+    text-shadow: none;
+    text-align: left;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .banner-container {
+    background-image: url("./Images/1.jpg");
+    background-repeat: no-repeat;
+    min-height: 775px;
+    background-size: cover;
+    padding: 50px;
+  }
+  .logo {
+    width: auto;
+    margin: 0 auto;
+    padding: 16px;
+    height: 125px;
+    font-size: 2.2em;
+    text-shadow: none;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,325 @@
+.container .product {
+  width: 80%;
+  margin: auto;
+}
+.container .product .pageTitle {
+  margin-top: 10px;
+}
+.container .product .pageTitle h2 {
+  margin-bottom: 20px;
+}
+.container .product .pageTitle div span {
+  font-size: 15px;
+  font-weight: 600;
+}
+.container .product .pageTitle div span::before {
+  content: "";
+  background-image: url("../../Components/Product/Images/coffeeIcon.svg");
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.container .product .productMain {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container .product .productMain .productImage {
+  max-width: 49%;
+  flex-basis: 49%;
+  margin-left: 1%;
+}
+.container .product .productMain .productImage img {
+  width: 100%;
+}
+.container .product .productMain .productInfo {
+  max-width: 49%;
+  flex-basis: 49%;
+}
+.container .product .productMain .productInfo .info .salary {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eae8e5;
+}
+.container .product .productMain .productInfo .info .salary h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.container .product .productMain .productInfo .info .salary p {
+  color: #747474;
+}
+.container .product .productMain .productInfo .info table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  max-width: 100%;
+}
+.container .product .productMain .productInfo .info table tr th {
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #3c3c3b;
+  width: 30%;
+  text-align: justify;
+  line-height: 1.5;
+}
+.container .product .productMain .productInfo .info .productBtn {
+  padding: 10px;
+  border: none;
+  background-color: #a0c800;
+  font-weight: 700;
+  color: #3c3c3b;
+  margin-top: 30px;
+  width: 35%;
+}
+.container .product .productMain .productInfo .info .productBtn:hover {
+  background: #273113;
+  color: #fff;
+  cursor: pointer;
+}
+/* Media Query */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container .product {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+  }
+  .container .product .productMain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .container .product .productMain .productImage {
+    max-width: 100%;
+    flex-basis: 100%;
+    margin-bottom: 1%;
+  }
+  .container .product .productMain .productImage img {
+    width: 100%;
+  }
+  .container .product .productMain .productInfo {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+  .container .product .productMain .productInfo .info table tr th {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #3c3c3b;
+    width: 50%;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  .container .product .productMain .productInfo .info .productBtn {
+    padding: 10px;
+    border: none;
+    background-color: #a0c800;
+    font-weight: 700;
+    color: #3c3c3b;
+    margin-top: 30px;
+    width: 100%;
+  }
+  .container .product .productMain .productInfo .info .salary p.onSale {
+    width: 40%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container .product {
+    width: 95%;
+    margin: auto;
+  }
+  .container .product .productMain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .container .product .productMain .productImage {
+    max-width: 100%;
+    flex-basis: 100%;
+    margin-bottom: 1%;
+  }
+  .container .product .productMain .productImage img {
+    width: 75%;
+  }
+  .container .product .productMain .productInfo {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+  .container .product .productMain .productInfo .info table tr th {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #3c3c3b;
+    width: 100%;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  .container .product .productMain .productInfo .info .productBtn {
+    padding: 10px;
+    border: none;
+    background-color: #a0c800;
+    font-weight: 700;
+    color: #3c3c3b;
+    margin-top: 30px;
+    width: 100%;
+  }
+  .container .product .productMain .productInfo .info .salary p.onSale {
+    width: 60%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container .product {
+    width: 90%;
+    margin: auto;
+  }
+  .container .product .productMain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .container .product .productMain .productImage {
+    max-width: 39%;
+    flex-basis: 39%;
+    margin-left: 1%;
+  }
+  .container .product .productMain .productImage img {
+    width: 80%;
+  }
+  .container .product .productMain .productInfo {
+    max-width: 60%;
+    flex-basis: 60%;
+  }
+  .container .product .productMain .productInfo .info table tr th {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #3c3c3b;
+    width: 30%;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  .container .product .productMain .productInfo .info .productBtn {
+    padding: 10px;
+    border: none;
+    background-color: #a0c800;
+    font-weight: 700;
+    color: #3c3c3b;
+    margin-top: 30px;
+    width: 45%;
+  }
+  .container .product .productMain .productInfo .info .salary p.onSale {
+    width: 30%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container .product {
+    width: 85%;
+    margin: auto;
+  }
+  .container .product .productMain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .container .product .productMain .productImage {
+    max-width: 49%;
+    flex-basis: 49%;
+    margin-left: 1%;
+  }
+  .container .product .productMain .productImage img {
+    width: 100%;
+  }
+  .container .product .productMain .productInfo {
+    max-width: 49%;
+    flex-basis: 49%;
+  }
+  .container .product .productMain .productInfo .info table tr th {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #3c3c3b;
+    width: 30%;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  .container .product .productMain .productInfo .info .productBtn {
+    padding: 10px;
+    border: none;
+    background-color: #a0c800;
+    font-weight: 700;
+    color: #3c3c3b;
+    margin-top: 30px;
+    width: 45%;
+  }
+  .container .product .productMain .productInfo .info .salary p.onSale {
+    width: 45%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container .product {
+    width: 80%;
+    margin: auto;
+  }
+  .container .product .productMain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .container .product .productMain .productImage {
+    max-width: 49%;
+    flex-basis: 49%;
+    margin-left: 1%;
+  }
+  .container .product .productMain .productImage img {
+    width: 100%;
+  }
+  .container .product .productMain .productInfo {
+    max-width: 49%;
+    flex-basis: 49%;
+  }
+  .container .product .productMain .productInfo .info table tr th {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #3c3c3b;
+    width: 30%;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  .container .product .productMain .productInfo .info .productBtn {
+    padding: 10px;
+    border: none;
+    background-color: #a0c800;
+    font-weight: 700;
+    color: #3c3c3b;
+    margin-top: 30px;
+    width: 35%;
+  }
+  .container .product .productMain .productInfo .info .salary p.onSale {
+    width: 20%;
+  }
+}

@@ -1,0 +1,99 @@
+.container .account .wishLists {
+  width: 80%;
+}
+.container .account .wishLists .products {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container .account .wishLists .products .product {
+  max-width: 24%;
+  flex-basis: 24%;
+  margin-left: 1%;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 1%;
+}
+.container .account .wishLists .products .product .address {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+.container .account .wishLists .products .product .address h4 {
+  max-width: 70%;
+  flex-basis: 70%;
+  margin-right: 10px;
+}
+.container .account .wishLists .products .product .address a h3 {
+  max-width: 70%;
+  flex-basis: 70%;
+}
+.container .account .wishLists .products .product .address img {
+  max-width: 30%;
+  flex-basis: 30%;
+  object-fit: contain;
+}
+.container .account .wishLists .products .product .desc {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #7c7c7b;
+  padding: 20px 20px;
+}
+
+.container .account .wishLists .products .product .desc > svg {
+  width: 20%;
+  height: 20%;
+  margin: auto;
+}
+.container .account .wishLists .products .product .desc p {
+  width: 80%;
+  margin-left: 10px;
+}
+.container .account .wishLists .products .product .country {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #7c7c7b;
+  padding: 20px 15px;
+}
+.container .account .wishLists .products .product .price {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 15px;
+}
+.container .account .wishLists .products .product .price > div {
+  max-width: 50%;
+  flex-basis: 50%;
+}
+
+.container .account .wishLists .products .product .price > div strong,
+.container .account .wishLists .products .product .price > div div {
+  font-size: 13px;
+  margin-top: 5px;
+}
+.container .account .wishLists .products .product button {
+  padding: 10px 25px;
+  border: 1px solid #a0c800;
+  background: #a0c800;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #352b2b;
+  width: 100%;
+}
+.container .account .wishLists .products .product button.delBtn {
+  margin-top: 3%;
+  background: #273113;
+  color: #fff;
+  border: 1px solid #273113;
+}
+.container .account .wishLists .products .product button.delBtn:hover {
+  background: #a0c800;
+  color: #352b2b;
+  border: 1px solid #a0c800;
+}
+.container .account .wishLists .products .product button:hover {
+  border: 1px solid #273113;
+  background: #273113;
+  color: #fff;
+  cursor: pointer;
+}

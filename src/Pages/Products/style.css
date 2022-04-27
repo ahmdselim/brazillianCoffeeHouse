@@ -1,0 +1,576 @@
+.container img.originImg {
+  width: 100%;
+}
+.container .origin {
+  width: 80%;
+  margin: 20px auto;
+}
+.container .origin .originDesc h2 {
+  font-size: 25px;
+  color: #3c3c3b;
+  margin-bottom: 10px;
+}
+.container .origin .originDesc p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.container .origin .shop {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container .origin .shop .options {
+  max-width: 24%;
+  flex-basis: 24%;
+  margin-right: 1%;
+}
+
+.container .origin .shop .options .optionsList .Collapsible {
+  margin-top: 20px;
+}
+.container
+  .origin
+  .shop
+  .options
+  .optionsList
+  .Collapsible
+  .Collapsible__trigger {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  border-bottom: 1px solid #bfbfbf;
+  padding-bottom: 10px;
+}
+.container
+  .origin
+  .shop
+  .options
+  .optionsList
+  .Collapsible
+  .Collapsible__contentOuter {
+  margin: 20px auto;
+  cursor: pointer;
+}
+.container
+  .origin
+  .shop
+  .options
+  .optionsList
+  .Collapsible
+  form
+  div
+  input[type="checkbox"] {
+  margin-right: 10px;
+}
+.container .origin .shop .productsList {
+  max-width: 74%;
+  flex-basis: 74%;
+  background-color: #f5f3f2;
+  padding-top: 50px;
+}
+.container .origin .shop .productsList .productsListHead {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+.container .origin .shop .productsList .productsListHead div:first-of-type svg {
+  cursor: pointer;
+  width: 20px;
+  height: 18px;
+}
+.container
+  .origin
+  .shop
+  .productsList
+  .productsListHead
+  div:first-of-type
+  svg:first-of-type {
+  margin-right: 25px;
+}
+.container
+  .origin
+  .shop
+  .productsList
+  .productsListHead
+  div:last-of-type
+  > span {
+  margin-right: 15px;
+  font-size: 15px;
+  font-weight: 300px;
+}
+.container .origin .shop .productsList .productsListHead div {
+  font-size: 14px;
+  font-weight: 300;
+}
+.container .origin .shop .productsList .productsListHead div select {
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.container .shop .productsList .shop .products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 20px auto;
+  flex-wrap: wrap;
+}
+.container .shop .productsList .shop .products .product.grid {
+  max-width: 32.33%;
+  flex-basis: 32.33%;
+  margin-left: 1%;
+  border: 1px solid #ddd;
+  padding: 20px;
+  background: #fafafa;
+}
+.container .shop .productsList .shop .products .product.list {
+  max-width: 100%;
+  flex-basis: 100%;
+  border: 1px solid #ddd;
+  padding: 20px;
+  background: #fafafa;
+}
+.container .shop .productsList .shop .products .product .address {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.container .shop .productsList .shop .products .product.list .address {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.container .shop .productsList .shop .products .product .address h4 {
+  max-width: 70%;
+  flex-basis: 70%;
+  margin-right: 10px;
+}
+.container .shop .productsList .shop .products .product .address h3 {
+  max-width: 70%;
+  flex-basis: 70%;
+}
+.container .shop .productsList .shop .products .product .address img {
+  max-width: 30%;
+  flex-basis: 30%;
+  object-fit: contain;
+}
+.container .shop .productsList .shop .products .product.list .address img {
+  max-width: 10%;
+  flex-basis: 10%;
+  object-fit: contain;
+}
+.container .shop .productsList .shop .products .product .desc {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #7c7c7b;
+  padding: 20px 20px;
+}
+.container .shop .productsList .shop .products .product .desc > svg {
+  width: 20%;
+  height: 20%;
+  margin: auto;
+}
+.container .shop .productsList .shop .products .product .desc p {
+  width: 80%;
+  margin-left: 10%;
+}
+.container .shop .productsList .shop .products .product .country {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #7c7c7b;
+  padding: 20px 15px;
+}
+.container .shop .productsList .shop .products .product .price {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+.container .shop .productsList .shop .products .product .price > div {
+  max-width: 50%;
+  flex-basis: 50%;
+}
+.container .shop .productsList .shop .products .product .price > div strong,
+.container .shop .productsList .shop .products .product .price > div div {
+  font-size: 13px;
+  margin-top: 5px;
+}
+.container .shop .productsList .shop .products .product button {
+  padding: 10px 25px;
+  border: 1px solid #a0c800;
+  background: #a0c800;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #352b2b;
+  width: 100%;
+}
+.container .shop .productsList .shop .products .product button:hover {
+  border: 1px solid #273113;
+  background: #273113;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Media Query */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container .origin {
+    width: 95%;
+    margin: 20px auto;
+  }
+  .container .origin .shop {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .container .origin .shop .options {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+  .container .origin .shop .productsList {
+    max-width: 100%;
+    flex-basis: 100%;
+    background-color: #f5f3f2;
+    padding-top: 50px;
+  }
+  .container .shop .productsList .shop .products .product.grid {
+    max-width: 100%;
+    flex-basis: 100%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 2%;
+  }
+  .container .shop .productsList .shop .products .product.list {
+    max-width: 100%;
+    flex-basis: 100%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 2%;
+  }
+  .container .shop .productsList .shop .products {
+    width: 80%;
+  }
+  .container .origin .shop .options .optionsList .Collapsible hr {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .container
+    .origin
+    .shop
+    .options
+    .optionsList
+    .Collapsible
+    .Collapsible__trigger {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    border-bottom: 0px;
+  }
+  .container
+    .origin
+    .shop
+    .options
+    .optionsList
+    .Collapsible
+    .Collapsible__contentOuter {
+    margin: 15px auto;
+    cursor: pointer;
+  }
+  .container .origin .shop .options h3 {
+    text-align: center;
+  }
+  .container .shop .productsList .shop .products .product .desc > svg {
+    width: 8%;
+    height: 8%;
+    margin: auto;
+  }
+  .container .shop .productsList .shop .products .product .desc {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #7c7c7b;
+    padding: 10px 10px;
+  }
+  .container .shop .productsList .shop .products .product.list .address img {
+    max-width: 30%;
+    flex-basis: 30%;
+    object-fit: contain;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container .origin {
+    width: 95%;
+    margin: 20px auto;
+  }
+  .container .origin .shop {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .container .origin .shop .options {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+  .container .origin .shop .productsList {
+    max-width: 100%;
+    flex-basis: 100%;
+    background-color: #f5f3f2;
+    padding-top: 50px;
+  }
+  .container .shop .productsList .shop .products .product.grid {
+    max-width: 100%;
+    flex-basis: 100%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 2%;
+  }
+  .container .shop .productsList .shop .products .product.list {
+    max-width: 100%;
+    flex-basis: 100%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 2%;
+  }
+  .container .shop .productsList .shop .products {
+    width: 80%;
+  }
+  .container .origin .shop .options .optionsList .Collapsible hr {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .container
+    .origin
+    .shop
+    .options
+    .optionsList
+    .Collapsible
+    .Collapsible__trigger {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    border-bottom: 0px;
+  }
+  .container
+    .origin
+    .shop
+    .options
+    .optionsList
+    .Collapsible
+    .Collapsible__contentOuter {
+    margin: 15px auto;
+    cursor: pointer;
+  }
+  .container .origin .shop .options h3 {
+    text-align: center;
+  }
+  .container .shop .productsList .shop .products .product .address h4 {
+    max-width: 80%;
+    flex-basis: 80%;
+    margin-right: 0px;
+  }
+  .container .shop .productsList .shop .products .product .address img {
+    max-width: 20%;
+    flex-basis: 20%;
+    object-fit: contain;
+  }
+  .container .shop .productsList .shop .products .product .desc > svg {
+    width: 8%;
+    height: 8%;
+    margin: auto;
+  }
+  .container .shop .productsList .shop .products .product .desc {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #7c7c7b;
+    padding: 10px 10px;
+  }
+  .container .shop .productsList .shop .products .product.list .address img {
+    max-width: 15%;
+    flex-basis: 15%;
+    object-fit: contain;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container .origin .shop .productsList {
+    max-width: 74%;
+    flex-basis: 74%;
+    background-color: #f5f3f2;
+    padding-top: 50px;
+  }
+  .container .origin .shop .options {
+    max-width: 24%;
+    flex-basis: 24%;
+    margin-right: 1%;
+  }
+  .container .origin .shop {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .container .shop .productsList .shop .products .product.grid {
+    max-width: 49%;
+    flex-basis: 49%;
+    margin-left: 1%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 2%;
+  }
+  .container .shop .productsList .shop .products .product.list {
+    max-width: 100%;
+    flex-basis: 100%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 2%;
+  }
+  .container .origin {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .container .shop .productsList .shop .products .product .price {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+  }
+  .container .shop .productsList .shop .products {
+    width: 100%;
+    padding: 1%;
+    padding: 10px;
+  }
+  .container .shop .productsList .shop .products .product.list .address img {
+    max-width: 10%;
+    flex-basis: 10%;
+    object-fit: contain;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* Styles */
+  .container .shop .productsList .shop .products .product.grid {
+    max-width: 32.33%;
+    flex-basis: 32.33%;
+    margin-left: 1%;
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  .container .shop .productsList .shop .products .product.list {
+    max-width: 100%;
+    flex-basis: 100%;
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  .container .shop .productsList .shop .products {
+    width: 90%;
+  }
+  .container .shop .productsList .shop .products .product .price {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+  }
+  .container .origin .shop {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .container .origin .shop .options {
+    max-width: 24%;
+    flex-basis: 24%;
+    margin-right: 1%;
+  }
+  .container .origin .shop .productsList {
+    max-width: 74%;
+    flex-basis: 74%;
+    background-color: #f5f3f2;
+    padding-top: 50px;
+  }
+  .container .origin {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .container .origin .shop .options .optionsList .Collapsible hr {
+    display: none;
+  }
+  .container
+    .origin
+    .shop
+    .options
+    .optionsList
+    .Collapsible
+    .Collapsible__trigger {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    border-bottom: 1px solid #bfbfbf;
+    padding-bottom: 10px;
+  }
+  .container
+    .origin
+    .shop
+    .options
+    .optionsList
+    .Collapsible
+    .Collapsible__contentOuter {
+    margin: 20px auto;
+    cursor: pointer;
+  }
+  .container .origin .shop .options h3 {
+    text-align: left;
+  }
+  .container .shop .productsList .shop .products .product.list .address {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .container .shop .productsList .shop .products .product .address h4 {
+    max-width: 100%;
+    flex-basis: 100%;
+    margin-right: 0px;
+  }
+  .container .shop .productsList .shop .products .product .address img {
+    max-width: 30%;
+    flex-basis: 30%;
+    object-fit: contain;
+  }
+  .container .shop .productsList .shop .products .product .desc > svg {
+    width: 20%;
+    height: 20%;
+    margin: auto;
+  }
+
+  .container .shop .productsList .shop .products .product .desc {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #7c7c7b;
+    padding: 20px 20px;
+  }
+  .container .origin .shop {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .container .origin .shop .options {
+    max-width: 24%;
+    flex-basis: 24%;
+    margin-right: 1%;
+  }
+  .container .origin .shop .productsList {
+    max-width: 74%;
+    flex-basis: 74%;
+    background-color: #f5f3f2;
+    padding-top: 50px;
+  }
+  .container .shop .productsList .shop .products .product.list .address img {
+    max-width: 10%;
+    flex-basis: 10%;
+    object-fit: contain;
+  }
+}

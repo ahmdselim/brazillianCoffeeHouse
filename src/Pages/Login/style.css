@@ -1,0 +1,265 @@
+button.restBtn {
+  padding: 10px;
+  width: 35%;
+  background-color: #a0c800;
+  border: 1px solid #a0c800;
+  color: #423434;
+  margin-top: 10px;
+}
+button.restBtn:hover {
+  cursor: pointer;
+  background-color: #273113;
+  border: 1px solid #273113;
+  color: #fff;
+}
+.container .loginContent {
+  width: 80%;
+  margin: 50px auto;
+}
+.container .loginContent h2 {
+  margin-bottom: 20px;
+}
+.container .loginContent .mainDiv {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container .loginContent .mainDiv > li {
+  max-width: 49%;
+  flex-basis: 49%;
+  margin-left: 1%;
+}
+.container .loginContent .mainDiv li.register hr {
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-color: #c5bbbb47;
+}
+.container .loginContent .mainDiv li.register p {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.container .loginContent .mainDiv li.register form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.container .loginContent .mainDiv li.register form label {
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.container .loginContent .mainDiv li.register form input {
+  padding: 5px 15px;
+  margin-bottom: 10px;
+}
+.container .loginContent .mainDiv li.register form button {
+  padding: 10px;
+  width: 25%;
+  background-color: #a0c800;
+  border: 1px solid #a0c800;
+  color: #423434;
+}
+.container .loginContent .mainDiv li.register form button:hover {
+  cursor: pointer;
+  background-color: #273113;
+  border: 1px solid #273113;
+  color: #fff;
+}
+.container .loginContent .mainDiv li.register form button span {
+  font-weight: 800;
+}
+.container .loginContent .mainDiv li.register p:last-child {
+  font-size: 13px;
+  font-weight: 700;
+  color: #62810e;
+  margin-top: 15px;
+}
+.container .loginContent .mainDiv li.register a {
+  color: #4b3b3b;
+  font-weight: 900;
+  margin-top: 15px
+}
+.container .loginContent .mainDiv li.notes hr {
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-color: #c5bbbb47;
+}
+.container .loginContent .mainDiv li.notes ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+.container .loginContent .mainDiv li.notes ul h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.container .loginContent .mainDiv li.notes ul li {
+  margin-bottom: 20px;
+}
+.container .loginContent .mainDiv li.notes ul li h4 {
+  margin-bottom: 10px;
+}
+.container .loginContent .mainDiv li.notes ul li p {
+  width: 75%;
+  line-height: 1.5;
+}
+.container .loginContent .mainDiv li.notes button:last-child {
+  padding: 15px 35px;
+  background-color: #a0c800;
+  border: 1px solid #a0c800;
+  font-weight: 700;
+}
+.container .loginContent .mainDiv li.notes button:last-child a {
+  color: #423434;
+}
+.container .loginContent .mainDiv li.notes button:hover:last-child {
+  cursor: pointer;
+  background-color: #273113;
+  border: 1px solid #273113;
+}
+.container .loginContent .mainDiv li.notes button:hover:last-child a {
+  color: #fff;
+}
+/* Media Query */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container .loginContent {
+    width: 80%;
+    margin: 50px auto;
+  }
+  .container .loginContent .mainDiv {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container .loginContent .mainDiv > li {
+    max-width: 100%;
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+  .container .loginContent .mainDiv li.register hr {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #c5bbbb47;
+  }
+  .container .loginContent .mainDiv li.notes ul li p {
+    width: 100%;
+    line-height: 1.5;
+  }
+  .container .loginContent .mainDiv li.notes ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    padding: 15px;
+  }
+  .container .loginContent .mainDiv li.notes hr {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #c5bbbb47;
+  }
+  .container .loginContent .mainDiv li.register form button {
+    padding: 10px;
+    width: 100%;
+    background-color: #a0c800;
+    border: 1px solid #a0c800;
+    color: #423434;
+  }
+  button.restBtn {
+    padding: 10px;
+    width: 100% !important;
+    background-color: #a0c800;
+    border: 1px solid #a0c800;
+    color: #423434;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* Styles */
+  .container .loginContent {
+    width: 90%;
+    margin: 50px auto;
+  }
+  .container .loginContent .mainDiv li.register form button {
+    padding: 10px;
+    width: 50%;
+    background-color: #a0c800;
+    border: 1px solid #a0c800;
+    color: #423434;
+  }
+  button.restBtn {
+    padding: 10px;
+    width: 100% !important;
+    background-color: #a0c800;
+    border: 1px solid #a0c800;
+    color: #423434;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* Styles */
+  .container .loginContent {
+    width: 80%;
+    margin: 50px auto;
+  }
+  .container .loginContent .mainDiv {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .container .loginContent .mainDiv > li {
+    max-width: 49%;
+    flex-basis: 49%;
+    margin-left: 1%;
+  }
+  .container .loginContent .mainDiv li.register hr {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #c5bbbb47;
+  }
+  .container .loginContent .mainDiv li.notes ul li p {
+    width: 75%;
+    line-height: 1.5;
+  }
+  .container .loginContent .mainDiv li.notes ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+  .container .loginContent .mainDiv li.notes hr {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #c5bbbb47;
+  }
+  .container .loginContent .mainDiv li.register form button {
+    padding: 10px;
+    width: 25%;
+    background-color: #a0c800;
+    border: 1px solid #a0c800;
+    color: #423434;
+  }
+  button.restBtn {
+    padding: 10px;
+    width: 35% !important;
+    background-color: #a0c800;
+    border: 1px solid #a0c800;
+    color: #423434;
+  }
+}
